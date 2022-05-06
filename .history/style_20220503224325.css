@@ -1,0 +1,9 @@
+.main-content
+{
+    display: grid;
+    grid-template-columns:1fr 4fr;
+}
+.left-main-content
+{
+    border:2px solid black;
+}

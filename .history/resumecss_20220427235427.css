@@ -1,0 +1,12 @@
+main{
+    display:grid;
+    grid-template-columns: 300px 700px;
+}
+.left-section
+{
+    background-color: grey;
+}
+.right-section
+{
+    background-color:aquamarine;
+}

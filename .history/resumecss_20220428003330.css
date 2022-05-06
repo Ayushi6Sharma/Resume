@@ -1,0 +1,26 @@
+.main-content
+{
+    display:grid;
+    grid-template-columns: 300px 700px;
+}
+.left-section
+{
+    background-color: grey;
+    border: 2px solid black;
+}
+.right-section
+{
+    background-color:aquamarine;
+}
+.left-content
+{
+    padding: 1rem;
+}
+.profile-image
+{
+    display:block;
+    margin: auto;
+    border:5px solid white;
+    border-radius: 30%;
+    width:60%;
+}

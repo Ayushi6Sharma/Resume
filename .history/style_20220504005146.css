@@ -1,0 +1,58 @@
+
+.main-content
+{
+    display: grid;
+    grid-template-columns:2fr 3fr;
+    width:80%;
+    margin: auto;
+    border:2px solid black;
+}
+.left-main-content
+ {   
+     /* grid-column: span 1; */
+    /* border:2px solid black; */
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.right-main-content
+{   
+    /* grid-column: span 1/span 2; */
+    border: 2px solid black;
+}
+.profile-data > div{
+    margin-top: 20px;
+}
+/* profile data */
+.img
+{
+    width:130px;
+    height:130px;
+    border-radius:15px;
+}
+/* technical skills */
+.title{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color:red;
+}
+progress{
+    color: aquamarine;
+}
+/* .bar
+{
+    border-radius:0px;
+    background-color: aqua;
+} */
+/* Interest */
+.interest-items{
+    list-style-type: square;
+    font-size: 15px;
+}
+@media only screen and (max-width:700px)
+{   .main-content
+    {
+        grid-template-columns:repeat(1,1fr);
+        width:100%;
+    }
+}
